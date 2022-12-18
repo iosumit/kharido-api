@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "categoryid": 1,
+        "subcategoryid": 1,
+        "title": "Head & Shoulders Smooth and Silky Anti Dandruff Shampoo, 650ml",
+        "price": 444.00,
+        "mrp": 699.00,
+        "description": "Quantity: 650ml; Item Form: Foam Richly indulgent anti-dandruff shampoo for dry, damaged or frizzy hair, Leaves hair up to 100% dandruff free; Gentle enough for everyday use, even for color or chemically treated hair Formulated with Head and Shoulders’ Fresh Scent Technology featuring enhanced fragrance notes for an improved in-shower scent experience. Visible flakes with regular use Hair Type: Frizzy Hair. For best results, use at least twice a week or as directed by a doctor Usage: Shake before use. Wet hair. Gently massage onto scalp. Lather and rinse thoroughly. Repeat if desired.",
+        "category": "men's clothing",
+        "image": [
+            "https://images.pexels.com/photos/4465121/pexels-photo-4465121.jpeg?auto=compress&cs=tinysrgb&w=200&dpr=2",
+            "https://images.pexels.com/photos/3993461/pexels-photo-3993461.jpeg?auto=compress&cs=tinysrgb&w=200&dpr=2",
+            "https://images.pexels.com/photos/4465828/pexels-photo-4465828.jpeg?auto=compress&cs=tinysrgb&w=200&dpr=2"
+        ]
+    }
+]
