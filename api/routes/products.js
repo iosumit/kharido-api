@@ -18,11 +18,12 @@ router.post('/', (req, res, next) => {
 router.get('/:id', (req, res, next) => {
     const id = req.params.id;
     const data = store.products.find(e => e.id == id);
-    if (!data)
-        res.status(200).json({
-            status: "Success",
-            message: "Found"
-        });
+    if (!data) {
+        const error = new Error("Not Found")
+        error.status = 404;
+        next(error);
+        return;
+    }
     res.status(200).json({
         status: "Success",
         message: "Successfully fetched",
@@ -31,9 +32,18 @@ router.get('/:id', (req, res, next) => {
 });
 router.delete('/:id', (req, res, next) => {
     const id = req.params.id;
+    const i = store.products.findIndex(e => e.id == id);
+    if (i === -1) {
+        const error = new Error("Not Found")
+        error.status = 404;
+        next(error);
+        return;
+    }
+    store.products.splice(i, 1);
     res.status(200).json({
         status: "Success",
-        message: "Product is deleted"
+        message: "Product is deleted",
+        data: i
     });
 });
 
