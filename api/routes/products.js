@@ -1,10 +1,12 @@
 const express = require('express');
 const router = express.Router();
+const store = require('../../db/db');
 
 router.get('/', (req, res, next) => {
     res.status(200).json({
         status: "Success",
-        message: "Handle Get Request products"
+        message: "Successfully fetched",
+        data: store.products
     });
 });
 router.post('/', (req, res, next) => {
@@ -15,14 +17,16 @@ router.post('/', (req, res, next) => {
 });
 router.get('/:id', (req, res, next) => {
     const id = req.params.id;
-    if (id === 'special')
+    const data = store.products.find(e => e.id == id);
+    if (!data)
         res.status(200).json({
             status: "Success",
-            message: "Product not found"
+            message: "Found"
         });
     res.status(200).json({
         status: "Success",
-        message: "Found"
+        message: "Successfully fetched",
+        data: data
     });
 });
 router.delete('/:id', (req, res, next) => {
