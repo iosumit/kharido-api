@@ -6,6 +6,8 @@ const bodyParser = require('body-parser');
 
 const productsRoutes = require('./api/routes/products');
 const ordersRoutes = require('./api/routes/orders');
+const catogariesRoutes = require('./api/routes/catgories');
+const subcatogariesRoutes = require('./api/routes/subcatgories');
 const store = require('./db/db');
 
 app.use(morgan('dev'));
@@ -32,6 +34,8 @@ store.dbinit();
 
 app.use('/products', productsRoutes);
 app.use('/orders', ordersRoutes);
+app.use('/categories', catogariesRoutes);
+app.use('/subcategories', subcatogariesRoutes);
 
 app.use((req, res, next) => {
     const error = new Error("Not Found")

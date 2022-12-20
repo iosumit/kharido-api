@@ -1,0 +1,20 @@
+[
+    {
+        "id": "x0001",
+        "name": "Sumit Kumar",
+        "username": "sumit001",
+        "password": "1234",
+        "number": "1234567890",
+        "countrycode": "+91",
+        "profileimage": "https://cdn-icons-png.flaticon.com/256/4140/4140047.png"
+    },
+    {
+        "id": "x0002",
+        "name": "Sumit Kumar",
+        "username": "sumit002",
+        "password": "1234",
+        "number": "1234567891",
+        "countrycode": "+91",
+        "profileimage": "https://cdn-icons-png.flaticon.com/256/4140/4140048.png"
+    }
+]

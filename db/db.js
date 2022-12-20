@@ -1,6 +1,8 @@
 const productsdata = require('./raw/products.json');
 const cartsdata = require('./raw/cart.json');
 const ordersdata = require('./raw/orders.json');
+const categorydata = require('./raw/category.json');
+const subcategorydata = require('./raw/subcategory.json');
 
 const categories = [];
 const subcategories = [];
@@ -18,6 +20,8 @@ function dbinit() {
     products.push(...productsdata);
     carts.push(...cartsdata);
     orders.push(...ordersdata);
+    categories.push(...categorydata);
+    subcategories.push(...subcategorydata);
 }
 
 module.exports = {

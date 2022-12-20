@@ -13,5 +13,79 @@
             "https://images.pexels.com/photos/3993461/pexels-photo-3993461.jpeg?auto=compress&cs=tinysrgb&w=200&dpr=2",
             "https://images.pexels.com/photos/4465828/pexels-photo-4465828.jpeg?auto=compress&cs=tinysrgb&w=200&dpr=2"
         ]
+    },
+    {
+        "id": 2,
+        "categoryid": 1,
+        "subcategoryid": 1,
+        "title": "Dove Shampoo",
+        "price": 1550.00,
+        "mrp": 1750.00,
+        "description": "Dove is a brand owned by the multinational consumer goods company Unilever. Dove products are manufactured in countries around the world. The products are sold in more than 150 countries and are offered for both women, men, and babies. Dove's logo is a silhouette profile of the brand's namesake bird.",
+        "category": "men's, women's clothing",
+        "image": [
+            "https://m.media-amazon.com/images/I/61YRs7rZJFL._SL1500_.jpg",
+            "https://m.media-amazon.com/images/I/61YRs7rZJFL._SL1500_.jpg"
+        ]
+    },
+    {
+        "id": 3,
+        "categoryid": 2,
+        "subcategoryid": 2,
+        "title": "Dove Shampoo Sachet 7 ml - 16 pcs",
+        "price": 30.00,
+        "mrp": 20.00,
+        "description": "Dove is a brand owned by the multinational consumer goods company Unilever. Dove products are manufactured in countries around the world. The products are sold in more than 150 countries and are offered for both women, men, and babies. Dove's logo is a silhouette profile of the brand's namesake bird.",
+        "category": "men's, women's clothing",
+        "image": [
+            "https://images.pexels.com/photos/4465121/pexels-photo-4465121.jpeg?auto=compress&cs=tinysrgb&w=200&dpr=2",
+            "https://images.pexels.com/photos/3993461/pexels-photo-3993461.jpeg?auto=compress&cs=tinysrgb&w=200&dpr=2",
+            "https://images.pexels.com/photos/4465828/pexels-photo-4465828.jpeg?auto=compress&cs=tinysrgb&w=200&dpr=2"
+        ]
+    },
+    {
+        "id": 4,
+        "categoryid": 2,
+        "subcategoryid": 2,
+        "title": "Dove Color Care Shampoo (400ML, Pack of 6)",
+        "price": 5000.00,
+        "mrp": 6000.00,
+        "description": "Dove is a brand owned by the multinational consumer goods company Unilever. Dove products are manufactured in countries around the world. The products are sold in more than 150 countries and are offered for both women, men, and babies. Dove's logo is a silhouette profile of the brand's namesake bird.",
+        "category": "men's, women's clothing",
+        "image": [
+            "https://i.gadgets360cdn.com/products/color-care-shampoo-large-27582-53404-1584560164.jpg",
+            "https://i.gadgets360cdn.com/products/color-care-shampoo-large-27582-53404-1584560164.jpg",
+            "https://i.gadgets360cdn.com/products/color-care-shampoo-large-27582-53404-1584560164.jpg"
+        ]
+    },
+    {
+        "id": 5,
+        "categoryid": 2,
+        "subcategoryid": 2,
+        "title": "Dove Regenerative Repair Shampoo | Dove shampoos",
+        "price": 150.00,
+        "mrp": 160.00,
+        "description": "Dove is a brand owned by the multinational consumer goods company Unilever. Dove products are manufactured in countries around the world. The products are sold in more than 150 countries and are offered for both women, men, and babies. Dove's logo is a silhouette profile of the brand's namesake bird.",
+        "category": "men's, women's clothing",
+        "image": [
+            "https://www.dove.com/content/dam/unilever/dove/india/general_image/hair_care/hair_care_unidentified/1920_shampoo-706990.png",
+            "https://www.dove.com/content/dam/unilever/dove/india/general_image/hair_care/hair_care_unidentified/1920_shampoo-706990.png",
+            "https://www.dove.com/content/dam/unilever/dove/india/general_image/hair_care/hair_care_unidentified/1920_shampoo-706990.png"
+        ]
+    },
+    {
+        "id": 6,
+        "categoryid": 2,
+        "subcategoryid": 2,
+        "title": "Dove Regenerative Repair Shampoo | Dove shampoos",
+        "price": 150.00,
+        "mrp": 160.00,
+        "description": "Dove is a brand owned by the multinational consumer goods company Unilever. Dove products are manufactured in countries around the world. The products are sold in more than 150 countries and are offered for both women, men, and babies. Dove's logo is a silhouette profile of the brand's namesake bird.",
+        "category": "men's, women's clothing",
+        "image": [
+            "https://www.dove.com/content/dam/unilever/dove/india/general_image/hair_care/hair_care_unidentified/1920_shampoo-706990.png",
+            "https://www.dove.com/content/dam/unilever/dove/india/general_image/hair_care/hair_care_unidentified/1920_shampoo-706990.png",
+            "https://www.dove.com/content/dam/unilever/dove/india/general_image/hair_care/hair_care_unidentified/1920_shampoo-706990.png"
+        ]
     }
 ]

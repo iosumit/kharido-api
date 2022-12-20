@@ -1,0 +1,57 @@
+[
+    {
+        "id": 1,
+        "name": "men's clothing",
+        "image": "https://cdn-icons-png.flaticon.com/256/2681/2681760.png"
+    },
+    {
+        "id": 2,
+        "name": "womens's clothing",
+        "image": "https://cdn-icons-png.flaticon.com/256/3534/3534317.png"
+    },
+    {
+        "id": 3,
+        "name": "kid's clothing",
+        "image": "https://cdn-icons-png.flaticon.com/256/3723/3723287.png"
+    },
+    {
+        "id": 4,
+        "name": "Hobbies kit",
+        "image": "https://cdn-icons-png.flaticon.com/256/4507/4507640.png"
+    },
+    {
+        "id": 5,
+        "name": "Grocery",
+        "image": "https://cdn-icons-png.flaticon.com/256/1532/1532676.png"
+    },
+    {
+        "id": 6,
+        "name": "stationery",
+        "image": "https://cdn-icons-png.flaticon.com/256/1930/1930026.png"
+    },
+    {
+        "id": 7,
+        "name": "Toy",
+        "image": "https://cdn-icons-png.flaticon.com/256/1807/1807601.png"
+    },
+    {
+        "id": 8,
+        "name": "Beauty",
+        "image": "https://cdn-icons-png.flaticon.com/256/1807/1807383.png"
+    },
+    {
+        "id": 9,
+        "name": "Electronics",
+        "image": "https://cdn-icons-png.flaticon.com/256/2222/2222271.png"
+    },
+    {
+        "id": 10,
+        "name": "Furniture",
+        "image": "https://cdn-icons-png.flaticon.com/256/2308/2308399.png"
+    },
+    {
+        "id": 11,
+        "name": "Sports",
+        "image": "https://cdn-icons-png.flaticon.com/256/2944/2944415.png"
+    }
+]

@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "Shirt",
+        "image": "https://cdn-icons-png.flaticon.com/256/4643/4643574.png",
+        "category_id": 1
+    },
+    {
+        "id": 2,
+        "name": "Pant",
+        "image": "https://cdn-icons-png.flaticon.com/256/776/776623.png",
+        "category_id": 1
+    },
+    {
+        "id": 3,
+        "name": "T Shirt",
+        "image": "https://cdn-icons-png.flaticon.com/256/892/892458.png",
+        "category_id": 1
+    },
+    {
+        "id": 4,
+        "name": "Frok",
+        "image": "https://cdn-icons-png.flaticon.com/256/7123/7123794.png",
+        "category_id": 2
+    },
+    {
+        "id": 5,
+        "name": "Saree",
+        "image": "https://cdn-icons-png.flaticon.com/256/4170/4170885.png",
+        "category_id": 2
+    },
+    {
+        "id": 6,
+        "name": "Gown",
+        "image": "https://cdn-icons-png.flaticon.com/256/7590/7590205.png",
+        "category_id": 2
+    }
+]
