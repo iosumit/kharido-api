@@ -8,6 +8,7 @@ const productsRoutes = require('./api/routes/products');
 const ordersRoutes = require('./api/routes/orders');
 const catogariesRoutes = require('./api/routes/catgories');
 const subcatogariesRoutes = require('./api/routes/subcatgories');
+const homepageRoutes = require('./api/routes/homepage');
 const store = require('./db/db');
 
 app.use(morgan('dev'));
@@ -36,7 +37,13 @@ app.use('/products', productsRoutes);
 app.use('/orders', ordersRoutes);
 app.use('/categories', catogariesRoutes);
 app.use('/subcategories', subcatogariesRoutes);
-
+app.use('/homepage', homepageRoutes);
+app.use('/', (req, res, next) => {
+    res.status(200).json({
+        status: "Success",
+        message: "Server is working"
+    });
+});
 app.use((req, res, next) => {
     const error = new Error("Not Found")
     error.status = 404;
