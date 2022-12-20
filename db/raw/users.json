@@ -3,18 +3,22 @@
         "id": "x0001",
         "name": "Sumit Kumar",
         "username": "sumit001",
+        "email": "sumit001@email.com",
         "password": "1234",
-        "number": "1234567890",
+        "phone": "1234567890",
         "countrycode": "+91",
-        "profileimage": "https://cdn-icons-png.flaticon.com/256/4140/4140047.png"
+        "profileimage": "https://cdn-icons-png.flaticon.com/256/4140/4140047.png",
+        "created_at": ""
     },
     {
         "id": "x0002",
         "name": "Sumit Kumar",
         "username": "sumit002",
         "password": "1234",
-        "number": "1234567891",
+        "email": "sumit002@email.com",
+        "phone": "1234567891",
         "countrycode": "+91",
-        "profileimage": "https://cdn-icons-png.flaticon.com/256/4140/4140048.png"
+        "profileimage": "https://cdn-icons-png.flaticon.com/256/4140/4140048.png",
+        "created_at": ""
     }
 ]

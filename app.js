@@ -9,7 +9,9 @@ const ordersRoutes = require('./api/routes/orders');
 const catogariesRoutes = require('./api/routes/catgories');
 const subcatogariesRoutes = require('./api/routes/subcatgories');
 const homepageRoutes = require('./api/routes/homepage');
+const userRoutes = require('./api/routes/users');
 const store = require('./db/db');
+const { error } = require('./utils/constants');
 
 app.use(morgan('dev'));
 app.use(bodyParser.urlencoded({ extended: false }));
@@ -38,7 +40,9 @@ app.use('/orders', ordersRoutes);
 app.use('/categories', catogariesRoutes);
 app.use('/subcategories', subcatogariesRoutes);
 app.use('/homepage', homepageRoutes);
-app.use('/', (req, res, next) => {
+app.use('/user', userRoutes);
+
+app.route("/").get((req, res) => {
     res.status(200).json({
         status: "Success",
         message: "Server is working"
@@ -52,7 +56,7 @@ app.use((req, res, next) => {
 app.use((err, req, res, next) => {
     res.status(err.status || 500);
     res.json({
-        status: "Error",
+        status: error,
         message: err.message
     })
 });
